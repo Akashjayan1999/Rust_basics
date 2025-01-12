@@ -3,9 +3,11 @@ use std::string;
 
 use chrono::{Local, DateTime};
 mod advanced_concept;
+mod compound_type;
 fn main() {
     advanced_concept::advanced_function();
     advanced_concept::main();
+    compound_type::main();
     let now = Local::now();
     println!("{}", now.format("%Y-%m-%d %H:%M:%S"));
     println!("Hello, world!");
