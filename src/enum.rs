@@ -96,7 +96,7 @@ fn main() {
      value_in_cents(Coin::Quarter(UsState::Alaska));
      
     let five = plus_one(Some(5));
-    let none =    plus_one(None);
+    let none = plus_one(None);
 
     let some_3_value =  Some(3);
     match some_3_value {
