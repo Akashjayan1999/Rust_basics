@@ -5,7 +5,9 @@ use chrono::{Local, DateTime};
 mod advanced_concept;
 mod compound_type;
 mod common_collection;
+mod error_handling;
 fn main() {
+    error_handling::error_handling();
     common_collection::common_collections();
     advanced_concept::advanced_function();
     advanced_concept::main();
