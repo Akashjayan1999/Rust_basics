@@ -3,7 +3,7 @@ use std::collections::HashMap;
 
 pub fn common_collections(){
 
-
+ 
 
     let a = [1, 2, 3, 4, 5];
     let mut v: Vec<i32> = Vec::new(); //vector can have only one type of value
