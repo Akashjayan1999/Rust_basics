@@ -7,13 +7,16 @@ mod compound_type;
 mod common_collection;
 mod error_handling;
 mod generics;
+mod traits;
 fn main() {
+    traits::main(); 
     generics::main();
     error_handling::error_handling();
     common_collection::common_collections();
     advanced_concept::advanced_function();
     advanced_concept::main();
     compound_type::main();
+    
     let now = Local::now();
     println!("{}", now.format("%Y-%m-%d %H:%M:%S"));
     println!("Hello, world!");
