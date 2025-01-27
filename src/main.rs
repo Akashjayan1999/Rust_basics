@@ -8,7 +8,9 @@ mod common_collection;
 mod error_handling;
 mod generics;
 mod traits;
+mod life_time;
 fn main() {
+    life_time::main();
     traits::main(); 
     generics::main();
     error_handling::error_handling();
